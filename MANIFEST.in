@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include formgias *.css
+recursive-include formgias *.csv
+recursive-include formgias *.html
+recursive-include formgias *.ico
+recursive-include formgias *.js
+recursive-include formgias *.json
+recursive-include formgias *.md
+recursive-include formgias *.png
+recursive-include formgias *.py
+recursive-include formgias *.svg
+recursive-include formgias *.txt
+recursive-exclude formgias *.pyc
