@@ -4,5 +4,7 @@
 frappe.ui.form.on('Pengajuan Perubahan Jabatan Karyawan fg', {
 	refresh: function(frm) {
 
+		cur_frm.add_fetch("employee","designation","current_designation")
+
 	}
 });

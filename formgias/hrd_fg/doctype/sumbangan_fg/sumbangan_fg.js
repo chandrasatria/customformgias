@@ -3,6 +3,15 @@
 
 frappe.ui.form.on('Sumbangan fg', {
 	refresh: function(frm) {
+			cur_frm.add_fetch("employee","employee_name","employee_name")
+			cur_frm.add_fetch("employee","designation","designation")
+			cur_frm.add_fetch("employee","department","department")
+			cur_frm.add_fetch("employee","company","company")
 
+			cur_frm.add_fetch("to","employee_name","employees_name")
+			cur_frm.add_fetch("to","designation","designations")
+			cur_frm.add_fetch("to","department","departments")
+			cur_frm.add_fetch("to","company","companies")
+			cur_frm.add_fetch("to","date_of_joining","entry_date")
 	}
 });

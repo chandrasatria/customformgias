@@ -3,6 +3,7 @@
 
 frappe.ui.form.on('Perubahan Gaji fg', {
 	refresh: function(frm) {
+		cur_frm.add_fetch("employee","employee_name","employee_name")
 
 	}
 });
