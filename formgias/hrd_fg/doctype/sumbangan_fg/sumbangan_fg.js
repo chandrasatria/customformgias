@@ -13,5 +13,10 @@ frappe.ui.form.on('Sumbangan fg', {
 			cur_frm.add_fetch("to","department","departments")
 			cur_frm.add_fetch("to","company","companies")
 			cur_frm.add_fetch("to","date_of_joining","entry_date")
+
+			frappe.ui.form.on("Sumbangan fg","entry_date",function(){
+				cur_frm.doc.masa_kerja = frappe.datetime.get_day_diff(cur_frm.doc.today,cur_frm.doc.entry_date);
+				refresh_field("masa_kerja");
+			});
 	}
 });
