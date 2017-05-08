@@ -2,7 +2,7 @@
  "allow_copy": 0, 
  "allow_import": 0, 
  "allow_rename": 0, 
- "autoname": "BDRfg.#####", 
+ "autoname": "BDR.#####", 
  "beta": 0, 
  "creation": "2017-04-22 10:13:07.646920", 
  "custom": 0, 
@@ -189,7 +189,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-04-27 16:21:07.996735", 
+ "modified": "2017-05-05 13:43:52.812217", 
  "modified_by": "Administrator", 
  "module": "B and D fg", 
  "name": "B and D Request fg", 
@@ -218,7 +218,7 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
  "sort_field": "modified", 
