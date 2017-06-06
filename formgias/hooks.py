@@ -81,23 +81,23 @@ app_license = "GNU General Public License"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
 # 	"all": [
 # 		"formgias.tasks.all"
 # 	],
-# 	"daily": [
-# 		"formgias.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"formgias.tasks.hourly"
-# 	],
+ 	"daily": [
+ 		"formgias.api_connect.sync_permintaan_barang"
+ 	],
+ 	"hourly": [
+ 		"formgias.api_connect.sync_permintaan_barang"
+ 	],
 # 	"weekly": [
 # 		"formgias.tasks.weekly"
 # 	]
 # 	"monthly": [
 # 		"formgias.tasks.monthly"
 # 	]
-# }
+ }
 
 # Testing
 # -------
