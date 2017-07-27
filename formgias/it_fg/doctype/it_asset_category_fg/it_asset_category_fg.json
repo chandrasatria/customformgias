@@ -2,7 +2,7 @@
  "allow_copy": 0, 
  "allow_import": 0, 
  "allow_rename": 0, 
- "autoname": "IAC.#####", 
+ "autoname": "field:title", 
  "beta": 0, 
  "creation": "2017-04-25 10:52:39.914951", 
  "custom": 0, 
@@ -50,7 +50,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-05-05 14:02:16.493131", 
+ "modified": "2017-07-14 13:34:15.897799", 
  "modified_by": "Administrator", 
  "module": "IT fg", 
  "name": "IT Asset Category fg", 
@@ -84,5 +84,6 @@
  "read_only_onload": 0, 
  "sort_field": "modified", 
  "sort_order": "DESC", 
+ "title_field": "title", 
  "track_seen": 0
 }

@@ -76,7 +76,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-04-21 14:30:19.899065", 
+ "modified": "2017-07-21 15:16:32.846064", 
  "modified_by": "Administrator", 
  "module": "P and D fg", 
  "name": "P and D Event fg", 
@@ -105,7 +105,7 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
  "sort_field": "modified", 

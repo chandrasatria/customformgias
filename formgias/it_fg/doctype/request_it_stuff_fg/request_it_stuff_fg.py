@@ -7,4 +7,7 @@ import frappe
 from frappe.model.document import Document
 
 class RequestITStufffg(Document):
-	pass
+	def validate(self):
+		for row in self.item_detail:
+			if row.qty + row.current_qty < 0:
+				frappe.throw("Maaf, qty yang anda request untuk keluar melebihi jumlah barang saat ini. Silahkan cek pada baris item {}".format(row.it_asset))
